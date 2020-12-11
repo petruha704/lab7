@@ -1,0 +1,49 @@
+body
+{
+    background-color: #495464;
+}
+.musicbox
+{
+  height: 140px;
+  width : 140px;
+  background-color: #fddb3a;
+  border-style : solid;
+  border-width : 10px;
+  border-radius: 10px;
+  border-color: #fddb3a;
+}
+.container
+{
+  display: flex;
+  width : 100%;
+  justify-content: space-around;
+  position: relative;
+  top : 40vh;
+}
+h1
+{
+  font-family : sans-serif;
+  font-size: 50px;
+  width : 20vw;
+  color : #fddb3a;
+  position: absolute;
+  text-align: center;
+  top : 5vh;
+  left : 40vw;
+}
+.clickborder
+{
+  border-color: rgba(0,0,0, .7);
+  background-color: rgba(253,219,58, .7);
+}
+h2
+{
+  font-family : sans-serif;
+  font-size: 35px;
+  width : 20vw;
+  color : #fddb3a;
+  position: absolute;
+  text-align: center;
+  top : 65vh;
+  left : 40vw;
+}
